@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-header{
-
-}
 
 #navbar{
     margin: 0 auto;
@@ -110,7 +107,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #ffffff40;
-    box-shadow:0 80px 32px 0 rgba(31, 38, 135, 0.37) ;
+    box-shadow:0 80px 32px 0 rgba(31, 38, 135, 0.87) ;
     backdrop-filter: blur(4px);
     /* border: 1px solid #ffffff40; */
     font-size: 20px;
@@ -157,3 +154,174 @@ header{
     height: 200px;
     margin: 20px;
 }
+
+
+.discover-section{
+    width: 70%;
+    margin: 100px auto;
+
+}
+
+.discover-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background:transparent;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.87);
+}
+
+.discover-card img{
+    margin-top: -30px;
+    width: 50%;
+    align-self: self-start;
+}
+
+.discover-card-details .big-text{
+      font-size: 50px;
+      font-weight: 900;
+}
+
+.discover-card-details-btn{
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    transform: skewX(-20deg);
+}
+
+.discover-card-details .section-description{
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+}
+
+
+.demo-card-section{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.demo-cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.demo-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: 1px solid #ffffff40;
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+.demo-card img{
+    width: 100%;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.demo-prof-details img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.demo-card h5{
+    margin: 0;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.demo-card .demo-prof-details{
+    display: flex;
+    gap: 7px;
+    align-self: self-start;
+}
+
+.demo-game-btn{
+    cursor: pointer;
+    padding:10px 0;
+    width: 90%;
+    text-align: center;
+    transform: skewX(-15deg);
+    border: 1px solid #ffffff40;
+    background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
+}
+
+.footer-container{
+    position: relative;
+    padding: 20px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-container .brands{
+    background: transparent;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wrapper{
+    position: absolute;
+    height: 100%;
+    width: 108vw;
+    opacity: 0.3;
+    background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
+
+}
+.footer-container .brands img{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-and-links{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.upper-logo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.upper-help, .upper-company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-with-name{
+    width: 100px;
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+.copyright {
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
